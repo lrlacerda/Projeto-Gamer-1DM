@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "titillium web";
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Black.ttf);
+}
+
+@font-face {
+    font-family: "inter";
+    src: url(../assets/fonts/Inter/static/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: quicksand;
+    src: url(../assets/fonts/Quicksand/static/Quicksand-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --fontfamily-titillium-web: titillium web;
+    --fontfamily-inter: inter;
+    --fontfamily-quicksand: quicksand;
+}
+
+/* mobile first */
+
+header {
+    background-color: rgb(178, 178, 178);
+    color: white;
+}   
