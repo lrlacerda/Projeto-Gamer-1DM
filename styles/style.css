@@ -168,7 +168,6 @@ main .banner {
     justify-content: space-between;
     align-items: center;
 
-
     background-image: url(../assets/img/img\ banner\ mobile.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -181,7 +180,7 @@ main .banner h1 {
     font-size: 2.5rem;
     font-weight: 900;
     text-align: center;
-    text-shadow: #FD4255;
+    text-shadow: 0px 0px 7px #FD4255;
 }
 
 main .banner .botao-sobre {
@@ -189,7 +188,127 @@ main .banner .botao-sobre {
     height: 40px;
     border-radius: 8px;
     background-color: #F9AA01;
+    color: #1B1426;
     font-family: var(--fontfamily-titillium-web);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 700;
+    text-decoration: none;
+    text-align: center;
 }
+
+/* banner jogos */
+
+main .banner-jogos {
+    width: 375px;
+    height: 590px;
+    background-color: #1B1426;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main .banner-jogos .banner-jogos-fifa {
+    width: 335px;
+    height: 189px;
+    background-image: url(../assets/img/sports-fifa.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    border-radius: 8px;
+    display: flex;
+    align-items: end;
+}
+
+main .banner-jogos-counter {
+    width: 335px;
+    height: 189px;
+    background-image: url(../assets/img/counter-strike.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    border-radius: 8px;
+    display: flex;
+    align-items: end;
+}
+
+main .banner-jogos-countainer {
+    width: 100vw;
+    height: 50px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    backdrop-filter: blur(45px);
+}
+
+main .banner-jogos-link {
+    width: 200px;
+    height: 40px;
+    background-color: #F9AA01;
+    margin: 0 0 5px 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: skew(-20deg);
+}
+
+main .banner-jogos-link a {
+    font-family: var(--fontfamily-titillium-web);
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #000000;
+}
+
+/* banner entre para o time */
+
+main .banner-time {
+    background-color: #F9AA01;
+    width: 100vw;
+    height: 1535px;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+ .banner-time h2 {
+    font-family: var(--fontfamily-titillium-web);
+    font-size: 18px;
+    font-weight: 900;
+    color: #1B1426;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    margin: 84px auto 0 auto;
+}
+
+.banner-time hr {
+    background-color: #1B1426;
+    width: 60%;
+    height: 3px;
+    border-width: 0;
+    margin: 35px auto;
+    
+}
+
+.banner-time-article-1 {
+    width: 314px;
+    height: 511px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    margin: 20px;
+}
+
+main .banner-time-descricao-1 {
+    width: 231px;
+    height: 300px;
+
+    position: relative;
+    top: -400px;
+  
+    
+}
+
+
