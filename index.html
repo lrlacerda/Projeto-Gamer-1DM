@@ -81,10 +81,10 @@
                 </nav>
 
                 <!-- menu 3 pontinhos -->
-                <img src="assets/icons/menu 3 pontos.svg" class="menu-pontinhos"
+                <img onclick="mostrarMenuUsuarios()" src="assets/icons/menu 3 pontos.svg" class="menu-pontinhos"
                     alt="Ícone 3 pontinhos, abre o menu de usuários">
 
-                <div class="menu-usuarios">
+                <div class="menu-usuarios" id="menu-usuarios">
                     <a href="">
                         <img src="assets/icons/icon login.svg" alt="Ícone de perfil">
                     </a>
@@ -99,11 +99,24 @@
         </div>
     </header>
 
+    <main>
+        <section class="banner">
+            <h1>Liga Gamers</h1>
+            <a href=""><button class="botao-sobre">Sobre</button></a>
+        </section>
+    </main>
+
+    <footer></footer>
+
     <script>
         function mostrarMenu() {
             document.getElementById("menu").classList.toggle("mostrar-menu");
         }
+        function mostrarMenuUsuarios() {
+            document.getElementById("menu-usuarios").classList.toggle("mostrar-menu-usuarios");
+        }
     </script>
+
 </body>
 
 </html>
