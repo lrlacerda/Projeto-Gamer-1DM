@@ -31,10 +31,9 @@ body {
 
 /* Classes genéricas */
 .mostrar-menu {
-    left: 0;
+    left: 0 !important;
 }
 .layout-grid {
-    border: 1px solid salmon;
     width: 90%;
     height: 100%;
     margin: 0 auto;
@@ -89,6 +88,7 @@ header .header-bottom nav {
     padding-bottom: 20px;
     background-image: linear-gradient(to right bottom, rgba(27, 20, 38, 0.7), rgba(27, 20, 38, 0.4));
     backdrop-filter: blur(45px);
+    transition: 0.4s;
 }
 
 /* somente links "filhos diretos" */
@@ -122,7 +122,6 @@ header .header-bottom nav .midias-sociais {
 */
 
 header .header-bottom nav .midias-sociais {
-    border: 1px solid red;
     display: flex;
     justify-content: center;
     /* gap é o espaçamento entre os elementos, funciona em linha e também em coluna. */
