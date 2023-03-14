@@ -28,13 +28,13 @@
 
                 <div class="midias-sociais">
                     <a href="">
-                        <img src="./assets/icons/facebook.svg" alt="Imagem link do Facebook da empresa Gamer">
+                        <img src="assets/icons/Vector.svg" alt="Imagem link do Facebook da empresa Gamer">
                     </a>
                     <a href="">
-                        <img src="./assets/icons/linkedin.svg" alt="Imagem link do Linkedin da empresa Gamer">
+                        <img src="assets/icons/Vector (2).svg" alt="Imagem link do Linkedin da empresa Gamer">
                     </a>
                     <a href="">
-                        <img src="./assets/icons/intagram.svg" alt="Imagem link do Instagram da empresa Gamer">
+                        <img src="assets/icons/Vector (1).svg" alt="Imagem link do Instagram da empresa Gamer">
                     </a>
                 </div>
             </div>
@@ -43,13 +43,13 @@
         <div class="header-bottom">
             <div class="layout-grid alinhamento-between-center">
                 <!-- menu hamburger -->
-                <img src="assets/icons/menu amburguer.svg" class="menu-hamburger"
+                <img onclick="mostrarMenu()" src="assets/icons/menu amburguer.svg" class="menu-hamburger"
                     alt="Ícone para abrir e fechar o menu de celular">
 
                 <img class="logo" src="assets/img/logotipo-gamer.svg"
                     alt="Logotipo da empresa. Texto Gamer com um joystick ao centro">
 
-                <nav class="menu">
+                <nav class="menu" id="menu">
                     <a href="">Início</a>
                     <a href="">Jogadores</a>
                     <a href="">Equipes</a>
@@ -57,14 +57,15 @@
 
                     <!-- visível apenas no mobile -->
 
-                    <div class="phone">
-                        <img src="./assets/icons/icone_telefone.svg" alt="Ícone de telefone">
+                    <a class="phone">
+                        <img src="assets/icons/icone_telefone.svg"
+                            alt="Ícone de Telefone. Abre e fecha o menu principal, no celular">
                         <span>(11) 0900-1010</span>
-                    </div>
-                    <div class="email">
-                        <img src="./assets/icons/icone_email.svg" alt="Ícone de e-mail">
+                    </a>
+                    <a class="email">
+                        <img src="assets/icons/icone_email.svg" alt="Ícone de e-mail">
                         <span>contato@gamer.com.br</span>
-                    </div>
+                    </a>
 
                     <div class="midias-sociais">
                         <a href="">
@@ -85,19 +86,24 @@
 
                 <div class="menu-usuarios">
                     <a href="">
-                        <img src="./assets/icons/user.svg" alt="Ícone de perfil">
+                        <img src="assets/icons/icon login.svg" alt="Ícone de perfil">
                     </a>
                     <a href="">
-                        <img src="./assets/icons/bag.png" alt="Ícone de sacola">
+                        <img src="assets/icons/icon compras.svg" alt="Ícone de sacola">
                     </a>
                     <a href="">
-                        <img src="./assets/icons/search.svg" alt="Ícone lupa de pesquisa">
+                        <img src="assets/icons/icon lupa.svg" alt="Ícone lupa de pesquisa">
                     </a>
                 </div>
             </div>
         </div>
     </header>
 
+    <script>
+        function mostrarMenu() {
+            document.getElementById("menu").classList.toggle("mostrar-menu");
+        }
+    </script>
 </body>
 
 </html>
