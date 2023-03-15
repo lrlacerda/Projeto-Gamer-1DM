@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main .banner-login {
+    width: 100vw;
+    height: 687px;
+    background-image: url(../assets/img/Banner_Login.png);
+    backdrop-filter: blur(2px);
+}
+
+main .banner-login .login {
+    width: 335px;
+    height: 462px;
+    border: 1px solid #FFFFFF;
+
+    position: relative;
+    top: 78px;
+    left: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-image: linear-gradient(rgba(27, 20, 38, 0.6), rgba(60, 3, 65, 0.38));
+    backdrop-filter: blur(5px);
+}
+
+main .banner-login .login .banner-login-h1 {
+    border-top: 4px solid #F9AA01;
+    font-family: var(--fontfamily-titillium-web);
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+
+main .banner-login .login form .inputs {
+    width: 273px;
+    height: 40px;
+    margin-top: 30px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    background-color: transparent;
+    background-image: linear-gradient(91.13deg, rgba(239, 239, 239, 0.6), rgba(239, 239, 239, 0.1));
+    backdrop-filter: blur(3px);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+::placeholder {
+    color: #FFFFFF;
+}
+
+main .banner-login .login form .submit {
+    width: 273px;
+    height: 40px;
+    margin-top: 40px;
+    background-color: #F9AA01;
+    border-radius: 8px;
+    font-size: 24px;
+
+}

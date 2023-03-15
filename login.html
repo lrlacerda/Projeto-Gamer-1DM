@@ -6,14 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Gamer</title>
+    <link rel="stylesheet" href="styles/style-login.css">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="shortcut icon" href="assets/img/logotipo-gamer.svg" type="image/x-icon">
 </head>
 
 <body>
-
     <header>
-
         <div class="header-top">
             <div class="layout-grid">
                 <div class="contatos">
@@ -86,7 +85,7 @@
                     alt="Ícone 3 pontinhos, abre o menu de usuários">
 
                 <div class="menu-usuarios" id="menu-usuarios">
-                    <a href="login.html">
+                    <a href="">
                         <img src="assets/icons/icon login.svg" alt="Ícone de perfil">
                     </a>
                     <a href="">
@@ -101,55 +100,28 @@
     </header>
 
     <main>
-        <section class="banner">
-            <h1>Liga Gamers</h1>
-            <a class="botao-sobre" href="">Sobre</a>
-        </section>
-        <!-- banner jogos -->
-        <section class="banner-jogos">
-            <article class="banner-jogos-fifa">
-                <div class="banner-jogos-container">
-                </div>
-                <div class="banner-jogos-link">
-                    <a href="">Mais Populares</a>
+        <section class="banner-login">
+            <div class="login">
+                <div class="banner-login-h1">
+                    <h1>login</h1>
                 </div>
 
-            </article>
-            <article class="banner-jogos-counter">
-                <div class="banner-jogos-container">
-                    <div class="banner-jogos-link">
-                        <a href="">Último Jogo</a>
+                <form action="">
+                    <div>
+                        <label for="email"></label>
+                        <input class="inputs" type="email" id="email" placeholder= "Digite seu e-mail:" required autocomplete="on">
                     </div>
-                </div>
-            </article>
-        </section>
-        <!-- banner entre para o time gamer -->
-        <section class="banner-time">
-            <h2>Entre Para o time pro gamer</h2>
-            <hr>
-            <article class="banner-time-article-1">
+                    <div>
+                        <label for="senha"></label>
+                        <input class="inputs" type="password" id="senha" placeholder="Digite sua Senha:" required autocomplete="of">
+                    </div>
+                    <br>
+                    <div>
+                        <input class="submit" type="submit" value="Logar">
+                    </div>
+                </form>
 
-                <img src="assets/img/figura 1 banner time.png" alt="">
-
-                <div class="banner-time-descricao-1">
-                    <img src="assets/icons/icon controle banner time.svg" alt="">
-                    <h3>20 jogos diferentes</h3>
-                    <p>São mais de 20 jogos em 2 plataformas dispóniveis para que você possa aprender melhores
-                        técnicas.</p>
-                </div>
-            </article>
-            <article class="banner-time-article-2">
-
-                <img src="assets/img/figura 2 banner time.png" alt="">
-
-                <div class="banner-time-descricao-2">
-                    <img src="assets/icons/icon pessoa banner time.svg" alt="">
-                    <h3>53 professores</h3>
-                    <p>Temos 53 Proplayers no nosso time para ensinar todas as es- tratégias, você vai aprender do
-                        básico ao avançado.
-                        Tempo de treinamento, des- canso, equipamentos. </p>
-                </div>
-            </article>
+            </div>
         </section>
     </main>
 
