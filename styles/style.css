@@ -266,12 +266,12 @@ main .banner-time {
     background-color: #F9AA01;
     width: 100vw;
     height: 1535px;
-    
+
     display: flex;
     flex-direction: column;
 }
 
- .banner-time h2 {
+.banner-time h2 {
     font-family: var(--fontfamily-titillium-web);
     font-size: 18px;
     font-weight: 900;
@@ -288,12 +288,14 @@ main .banner-time {
     height: 3px;
     border-width: 0;
     margin: 35px auto;
-    
 }
 
-.banner-time-article-1 {
+main .banner-time-article-1 {
     width: 314px;
     height: 511px;
+
+    position: relative;
+    
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -305,10 +307,112 @@ main .banner-time-descricao-1 {
     width: 231px;
     height: 300px;
 
-    position: relative;
-    top: -400px;
-  
+    position: absolute;
+    top: 132px;
+    left: 105px;
     
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    border: 1px solid white;
+    border-radius: 8px;
+    background-image: linear-gradient(145.9deg, rgba(122, 49, 236, 0.2) 0%, rgba(47, 7, 109, 0.83) 98.56%);
+    backdrop-filter: blur(7.5px);
+}
+
+main .banner-time-descricao-1 img {
+    width: 97px;
+    height: 97px;
+    margin: 27px;
+}
+
+main .banner-time-descricao-1 h3 {
+    font-family: var(--fontfamily-titillium-web);
+    font-size: 18px;
+    font-weight: 900;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 6px #C6A5E6;
+}
+
+main .banner-time-descricao-1 p {
+    text-align: justify;
+    margin: 19px 27px 47px 27px ;
+    font-family: var(--fontfamily-quicksand);
+    font-weight: 400;
+    font-size: 13px;
+}
+
+main .banner-time-article-2 {
+    width: 314px;
+    height: 511px;
+
+    position: relative;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    margin: 110px 20px 238px 33px;
+}
+
+main .banner-time-descricao-2 {
+    width: 231px;
+    height: 300px;
+
+    position: absolute;
+    top: 100px;
+    left: -13px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    border: 1px solid white;
+    border-radius: 8px;
+    background-image: linear-gradient(145.9deg, rgba(122, 49, 236, 0.2) 0%, rgba(47, 7, 109, 0.83) 98.56%);
+    backdrop-filter: blur(7.5px);
+}
+
+main .banner-time-descricao-2 img {
+    width: 97px;
+    height: 96px;
+    margin: 15px;
+}
+
+main .banner-time-descricao-2 h3 {
+    font-family: var(--fontfamily-titillium-web);
+    font-size: 18px;
+    font-weight: 900;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 6px #C6A5E6;
+}
+
+main .banner-time-descricao-2 p {
+    text-align: justify;
+    margin: 15px 27px 26px 27px ;
+    font-family: var(--fontfamily-quicksand);
+    font-weight: 400;
+    font-size: 13px;
 }
 
 
+
+
+
+
+
+
+
+/* Tablets >= 768px*/
+
+@media screen and (min-width: 768px) {
+    
+}
+
+/* Desktops >= 1200px */
+
+@media screen and(min-width: 1200px) {
+    
+}
