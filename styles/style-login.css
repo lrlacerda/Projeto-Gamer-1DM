@@ -1,3 +1,25 @@
+@font-face {
+    font-family: "titillium web";
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Black.ttf);
+}
+
+@font-face {
+    font-family: "inter";
+    src: url(../assets/fonts/Inter/static/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: quicksand;
+    src: url(../assets/fonts/Quicksand/static/Quicksand-Regular.ttf);
+}
+
+:root {
+    --fontfamily-titillium-web: titillium web;
+    --fontfamily-inter: inter;
+    --fontfamily-quicksand: quicksand;
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -60,7 +82,79 @@ main .banner-login .login form .submit {
     height: 40px;
     margin-top: 40px;
     background-color: #F9AA01;
+    color: #1B1426;
     border-radius: 8px;
     font-size: 24px;
-
+   font-weight: 700;
 }
+
+footer .grid-footer {
+    width: 100vw;
+    height: 1531px;
+    background-image: url(../assets/img/backgroung_footer.png);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+footer .grid-footer .cabecalho-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .grid-footer .cabecalho-footer img {
+    width: 110px;
+    margin-bottom: 41px
+}
+
+footer .grid-footer .cabecalho-footer p {
+    margin: 0 20px;
+    text-align: justify;
+    font-family: var(--fontfamily-quicksand);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+footer .grid-footer .redes-sociais-footer {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .grid-footer .links-uteis-footer {
+    width: 326px;
+    height: 155px;
+    margin: 0 20px;
+}
+
+footer .grid-footer .links-uteis-footer h1 {
+    font-family: var(--fontfamily-titillium-web);
+    font-size: 30px;
+    font-weight: 900;
+    columns: #FFFFFF;
+}
+
+footer .grid-footer .links-uteis-footer hr {
+    width: 112px;
+    height: 3px;
+    background-color: #F9AA01;
+    border-width: 0;
+    margin-bottom: 43px;
+}
+
+footer .grid-footer .links-uteis-footer a {
+    font-family: var(--fontfamily-titillium-web);
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+
+
+
+
