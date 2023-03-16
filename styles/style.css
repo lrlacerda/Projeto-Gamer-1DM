@@ -295,7 +295,7 @@ main .banner-time-article-1 {
     height: 511px;
 
     position: relative;
-    
+
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -310,11 +310,11 @@ main .banner-time-descricao-1 {
     position: absolute;
     top: 132px;
     left: 105px;
-    
+
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
     border: 1px solid white;
     border-radius: 8px;
     background-image: linear-gradient(145.9deg, rgba(122, 49, 236, 0.2) 0%, rgba(47, 7, 109, 0.83) 98.56%);
@@ -338,7 +338,7 @@ main .banner-time-descricao-1 h3 {
 
 main .banner-time-descricao-1 p {
     text-align: justify;
-    margin: 19px 27px 47px 27px ;
+    margin: 19px 27px 47px 27px;
     font-family: var(--fontfamily-quicksand);
     font-weight: 400;
     font-size: 13px;
@@ -349,7 +349,7 @@ main .banner-time-article-2 {
     height: 511px;
 
     position: relative;
-    
+
     display: flex;
     flex-direction: column;
     justify-content: right;
@@ -363,11 +363,11 @@ main .banner-time-descricao-2 {
     position: absolute;
     top: 100px;
     left: -13px;
-    
+
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
     border: 1px solid white;
     border-radius: 8px;
     background-image: linear-gradient(145.9deg, rgba(122, 49, 236, 0.2) 0%, rgba(47, 7, 109, 0.83) 98.56%);
@@ -391,11 +391,234 @@ main .banner-time-descricao-2 h3 {
 
 main .banner-time-descricao-2 p {
     text-align: justify;
-    margin: 15px 27px 26px 27px ;
+    margin: 15px 27px 26px 27px;
     font-family: var(--fontfamily-quicksand);
     font-weight: 400;
     font-size: 13px;
 }
+
+main .banner-noticias {
+    width: 100%;
+    height: 100%;
+    background-image: url(../assets/img/Img\ fundo\ Noticias.png);
+    backdrop-filter: blur(4px);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 46px;
+}
+
+main .banner-noticias h1 {
+    font-family: var(--fontfamily-titillium-web);
+    font-size: 18px;
+    font-weight: 900;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 46px;
+}
+
+main .banner-noticias hr {
+    background-color: #F9AA01;
+    border-width: 0;
+    width: 204px;
+    height: 3px;
+    margin: 0 auto 72px auto;
+}
+
+main .banner-noticias .banner-noticias-article {
+    width: 335px;
+    height: 387px;
+    background-image: linear-gradient(141.58deg, rgba(37, 26, 52, 0.34), rgba(5, 1, 12, 0.79));
+    backdrop-filter: blur(3px);
+    border-radius: 8px;
+}
+
+main .banner-noticias .banner-noticias-article h2 {
+    font-family: var(--fontfamily-titillium-web);
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin: 16px auto 16px 26px;
+}
+
+main .banner-noticias .banner-noticias-article p {
+    font-family: var(--fontfamily-quicksand);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: justify;
+    margin: 0 25px 21px 25px;
+}
+
+/* footer */
+
+footer .grid-footer {
+    width: 100vw;
+    height: 1531px;
+    background-image: url(../assets/img/backgroung_footer.png);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer .grid-footer .cabecalho-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(180deg, #000002, rgba(67, 3, 99, 0.03));
+
+}
+
+footer .grid-footer .cabecalho-footer img {
+    width: 110px;
+    padding-top: 91px;
+    margin-bottom: 41px
+}
+
+footer .grid-footer .cabecalho-footer p {
+    margin: 0 20px;
+    text-align: justify;
+    font-family: var(--fontfamily-quicksand);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+footer .grid-footer .redes-sociais-footer {
+    width: 100%;
+    height: 41px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer .grid-footer .links-uteis-footer {
+    width: 326px;
+    height: 155px;
+}
+
+footer .grid-footer .links-uteis-footer h1 {
+    font-family: var(--fontfamily-titillium-web);
+    font-size: 30px;
+    font-weight: 900;
+    columns: #FFFFFF;
+}
+
+footer .grid-footer .links-uteis-footer hr {
+    width: 112px;
+    height: 3px;
+    background-color: #F9AA01;
+    border-width: 0;
+    margin-bottom: 43px;
+}
+
+footer .grid-footer .links-uteis-footer a {
+    font-family: var(--fontfamily-titillium-web);
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+footer .grid-footer .contatos-footer {
+    width: 289px;
+    height: 257px;
+    margin: 0 66px 0 20px;
+}
+
+footer .grid-footer .contatos-footer h1 {
+    font-family: var(--fontfamily-titillium-web);
+    font-size: 30px;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+
+footer .grid-footer .contatos-footer hr {
+    width: 102px;
+    height: 3px;
+    border-width: 0;
+    background-color: #F9AA01;
+    margin-bottom: 43px;
+}
+
+footer .grid-footer .contatos-footer h3 {
+    font-family: var(--fontfamily-titillium-web);
+    font-size: 16px;
+    font-weight: 700;
+    color: #F9AA01;
+    margin-bottom: 4px;
+}
+
+footer .grid-footer .contatos-footer p {
+    font-family: var(--fontfamily-titillium-web);
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+footer .grid-footer .newsletter-footer {
+    width: 333px;
+    height: 201px;
+    margin: 0 20px 0 20px;
+}
+
+footer .grid-footer .newsletter-footer h1 {
+    font-family: var(--fontfamily-titillium-web);
+    font-size: 30px;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+
+footer .grid-footer .newsletter-footer hr {
+    width: 102px;
+    height: 3px;
+    border-width: 0;
+    background-color: #F9AA01;
+    margin-bottom: 55px;
+}
+
+footer .grid-footer .newsletter-footer #email-newsletter {
+    width: 333px;
+    height: 40px;
+    border-radius: 8px;
+    background-image: linear-gradient(91.13deg, rgba(239, 239, 239, 0.6), rgba(239, 239, 239, 0.1));
+    backdrop-filter: blur(3px);
+    margin-bottom: 16px;
+}
+
+::placeholder {
+    /* color: #FFFFFF; */
+}
+
+footer .grid-footer .newsletter-footer #botao-submit {
+    width: 333px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #F9AA01;
+    font-size: 24px;
+    font-weight: 700;
+    color: #1B1426;
+}
+
+footer .grid-footer .copyright button {
+    width: 40px;
+    height: 40px;
+    background-color: #F9AA01;
+    border-radius: 8px;
+    border-width: 0;
+    margin: 0 26px 26px 309px;
+}
+
+footer .grid-footer .copyright p {
+    font-family: var(--fontfamily-titillium-web);
+    font-size: 16px;
+    font-weight: 400px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
 
 
 
@@ -407,12 +630,8 @@ main .banner-time-descricao-2 p {
 
 /* Tablets >= 768px*/
 
-@media screen and (min-width: 768px) {
-    
-}
+@media screen and (min-width: 768px) {}
 
 /* Desktops >= 1200px */
 
-@media screen and(min-width: 1200px) {
-    
-}
+@media screen and(min-width: 1200px) {}
