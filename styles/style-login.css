@@ -222,10 +222,6 @@ footer .grid-footer .newsletter-footer #email-newsletter {
     margin-bottom: 16px;
 }
 
-::placeholder {
-    /* color: #FFFFFF; */
-}
-
 footer .grid-footer .newsletter-footer #botao-submit {
     width: 333px;
     height: 40px;
