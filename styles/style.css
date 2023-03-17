@@ -497,6 +497,7 @@ footer .grid-footer .redes-sociais-footer {
 footer .grid-footer .links-uteis-footer {
     width: 326px;
     height: 155px;
+    margin: 0 auto 47px 20px;
 }
 
 footer .grid-footer .links-uteis-footer h1 {
@@ -514,12 +515,26 @@ footer .grid-footer .links-uteis-footer hr {
     margin-bottom: 43px;
 }
 
-footer .grid-footer .links-uteis-footer a {
+footer .grid-footer .links-uteis-footer .lista-links-uteis {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto 50px 20px;
+}
+
+footer .grid-footer .links-uteis-footer li a {
     font-family: var(--fontfamily-titillium-web);
     font-size: 16px;
     font-weight: 700;
     color: #FFFFFF;
     text-decoration: none;
+    margin-right: 40px;
+}
+
+li::marker {
+    content: '- ';
+    font-size: 2em;
+    color: #F9AA01;
 }
 
 footer .grid-footer .contatos-footer {
@@ -583,7 +598,7 @@ footer .grid-footer .newsletter-footer #email-newsletter {
     width: 333px;
     height: 40px;
     border-radius: 8px;
-    background-image: linear-gradient(91.13deg, rgba(239, 239, 239, 0.6), rgba(239, 239, 239, 0.1));
+    background-image: linear-gradient(91.13deg, rgba(29, 26, 26, 0.6), rgba(239, 239, 239, 1));
     backdrop-filter: blur(3px);
     margin-bottom: 16px;
 }
@@ -618,8 +633,6 @@ footer .grid-footer .copyright p {
     text-align: center;
     margin-bottom: 40px;
 }
-
-
 
 
 

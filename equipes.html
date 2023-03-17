@@ -6,13 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Gamer</title>
-    <link rel="stylesheet" href="styles/style-login.css">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/style-equipes.css">
     <link rel="shortcut icon" href="assets/img/logotipo-gamer.svg" type="image/x-icon">
 </head>
 
 <body>
+
     <header>
+
         <div class="header-top">
             <div class="layout-grid">
                 <div class="contatos">
@@ -52,7 +54,7 @@
                 <nav class="menu" id="menu">
                     <a href="index.html">Início</a>
                     <a href="">Jogadores</a>
-                    <a href="equipes.html">Equipes</a>
+                    <a href="">Equipes</a>
                     <a href="">Notícias</a>
 
                     <!-- visível apenas no mobile -->
@@ -85,7 +87,7 @@
                     alt="Ícone 3 pontinhos, abre o menu de usuários">
 
                 <div class="menu-usuarios" id="menu-usuarios">
-                    <a href="">
+                    <a href="login.html">
                         <img src="assets/icons/icon login.svg" alt="Ícone de perfil">
                     </a>
                     <a href="">
@@ -100,32 +102,40 @@
     </header>
 
     <main>
-        <section class="banner-login">
-            <div class="login">
-                <div class="banner-login-h1">
-                    <h1>login</h1>
+        <section class="grid-equipes">
+            <div class="formulario-equipes">
+                <div class="titulo-equipes">
+                    <h1>cadastro de equipes</h1>
+                    <hr>
                 </div>
-
-                <form action="">
-                    <div>
-                        <!-- <img src="assets/icons/" alt=""> -->
-                        <label for="email"></label>
-                        <input class="inputs" type="email" id="email" placeholder="Digite seu e-mail:" required
-                            autocomplete="on">
-                    </div>
-                    <div>
-                        <label for="senha"></label>
-                        <input class="inputs" type="password" id="senha" placeholder="Digite sua Senha:" required
-                            autocomplete="of">
-                    </div>
-                    <br>
-                    <div>
-                        <input class="submit" type="submit" value="Logar">
-                    </div>
+                <form class="form-equipes" action="">
+                    <label for="id-equipe"></label>
+                    <input type="n" id="id-equipe" placeholder="Digite o Id da sua equipe:" required autocomplete="off">
+                    <label for="nome-equipe"></label>
+                    <input type="text" id="nome-equipe" placeholder="Digite o nome da sua equipe:" autocomplete="on">
+                    <label for="imagem-equipe"></label>
+                    <input type="file" id="imagem-equipe" placeholder="Imagem da Equipe">
+                    <button>Cadastro</button>
                 </form>
-
             </div>
+            <article>
+                <div>
+                    <table>
+                        <thead>
+                            <tr>
+                                <td>id</td>
+                                <td>name</td>
+                                <td>foto</td>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+                <div>
+    
+                </div>
+            </article>
         </section>
+       
     </main>
 
     <footer>
@@ -171,7 +181,7 @@
                 </form>
             </div>
             <div class="copyright">
-                <a href="login.html"><button><img src="assets/icons/seta-botao-Copyright.svg" alt=""></button></a>
+                <a href="index.html"><button><img src="assets/icons/seta-botao-Copyright.svg" alt=""></button></a>
                 <p>©Copyright2022-GamerJogosDigitais</p>
             </div>
         </section>
