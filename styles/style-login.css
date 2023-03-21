@@ -75,6 +75,7 @@ main .banner-login .login form .inputs {
 
 ::placeholder {
     color: #FFFFFF;
+    padding-left: 15px;
 }
 
 main .banner-login .login form .submit {

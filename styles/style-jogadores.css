@@ -1,0 +1,155 @@
+@font-face {
+    font-family: "titillium web";
+    src: url(../assets/fonts/Titillium_Web/TitilliumWeb-Black.ttf);
+}
+
+@font-face {
+    font-family: "inter";
+    src: url(../assets/fonts/Inter/static/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: quicksand;
+    src: url(../assets/fonts/Quicksand/static/Quicksand-Regular.ttf);
+}
+
+:root {
+    --fontfamily-titillium-web: titillium web;
+    --fontfamily-inter: inter;
+    --fontfamily-quicksand: quicksand;
+}
+
+
+main .banner-jogadores {
+    width: 375px;
+    height: 1395px;
+    background-image: url(../assets/img/Banner_cadastro_de_Jogadores.png);
+    backdrop-filter: blur(2px);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main .banner-jogadores .banner-form {
+    width: 335px;
+    height: 650px;
+    background-image: linear-gradient(112.07deg, rgba(27, 20, 38, 0.6), rgba(60, 3, 65, 0.38));
+    backdrop-filter: blur(5px);
+    border-radius: 8px;
+}
+
+main .banner-jogadores .banner-form .titulo-jogadores h1 {
+    color: white;
+    font-family: var(--fontfamily-titillium-web);
+    font-size: 28px;
+    text-transform: uppercase;
+    padding: 0 10px;
+    text-align: center;
+    margin-top: 27px;
+}
+
+main .banner-jogadores .banner-form .titulo-jogadores hr {
+    width: 250px;
+    height: 3px;
+    border-width: 0;
+    background-color: #F9AA01;
+    margin: 0 auto;
+}
+
+main .banner-jogadores .banner-form .form-banner-jogadores {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-top: 80px;
+}
+
+main .banner-jogadores .banner-form .form-banner-jogadores input,
+select {
+    width: 273px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: transparent;
+    background-image: linear-gradient(91.13deg, rgba(239, 239, 239, 0.9), rgba(239, 239, 239, 0.1));
+    backdrop-filter: blur(3px);
+    border-width: 0;
+}
+
+::placeholder {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 15px;
+}
+
+main .banner-jogadores .botao-jogadores {
+    width: 273px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    background-color: #F9AA01;
+    color: #1B1426;
+    font-family: var(--fontfamily-titillium-web);
+    font-size: 24px;
+}
+
+main .tabela-jogadores {
+    margin-top: 140px;
+}
+
+
+main .tabela-equipes .tabela-head tr {
+    width: 336px;
+    height: 50px;
+    font-family: var(--fontfamily-titillium-web);
+    font-size: 20px;
+    color: #F9AA01;
+    text-shadow: 0px 0px 7px #000000;
+    text-transform: uppercase;
+
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+main .tabela-equipes .tabela-head tr td {
+    margin-right: 55px;
+}
+
+main .tabela-equipes tr hr {
+    background-color: #F9AA01;
+    border-width: 0;
+    width: 336px;
+    height: 3px;
+    margin-bottom: 29px;
+    margin-left: 10px;
+}
+
+main .tabela-equipes .tabela-body tr {
+    width: 336px;
+    height: 70px;
+    margin-bottom: 15px;
+    margin-left: 8px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-image: linear-gradient(112.07deg, rgba(27, 20, 38, 0.6), rgba(60, 3, 65, 0.38));
+    backdrop-filter: blur(5px);
+    border: 1px solid white;
+    border-radius: 8px;
+
+    font-family: var(--fontfamily-titillium-web);
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+}
+
+main .tabela-equipes .tabela-body tr span {
+    color: #F9AA01;
+}
+

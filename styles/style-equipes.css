@@ -81,6 +81,7 @@ main .grid-equipes .formulario-equipes .form-equipes #id-equipe,
 
 ::placeholder {
     color: white;
+    padding-left: 15px;
 }
 
 ::placeholder main .grid-equipes .formulario-equipes .form-equipes #imagem-equipe {
