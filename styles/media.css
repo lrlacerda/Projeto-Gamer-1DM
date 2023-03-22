@@ -4,6 +4,180 @@
 
 /* Desktops >= 1200px */
 
-@media screen and(min-width: 1200px) {
-    
+@media screen and (min-width: 1200px) {
+    .layout-grid {
+        width: 100%;
+        max-width: 1200px;
+    }
+
+    header {
+        position: static;
+        height: 140px;
+    }
+
+    header .header-top {
+        display: block;
+        height: 50px;
+        border-bottom: 2px solid #F9AA01;
+    }
+
+    header .header-top .layout-grid {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header .header-top .contatos {
+        width: 415px;
+        display: flex;
+        justify-content: space-between;
+
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    header .header-top .contatos>div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+    }
+
+    header .header-top .midias-sociais {
+        width: 120px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header .menu-hamburger,
+    header .menu-pontinhos,
+    header .header-bottom nav .phone,
+    header .header-bottom nav .email,
+    header .header-bottom nav .midias-sociais {
+        display: none;
+    }
+
+    /* Header Bottom */
+    header .header-bottom {
+        height: 90px;
+    }
+
+    header .header-bottom img.logo {
+        width: 200px;
+    }
+
+    header .header-bottom nav {
+        position: static;
+        width: 440px;
+        height: 50px;
+        padding: 0;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    header .header-bottom nav>a {
+        border: none;
+        font-size: 14px;
+    }
+
+    header .header-bottom nav>a:hover {
+        background-color: transparent;
+        color: #F9AA01;
+    }
+
+    header .header-bottom .menu-usuarios {
+        position: static;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 120px;
+        height: auto;
+        background-color: transparent;
+    }
+
+    /* main */
+
+    main {
+        margin-top: 0;
+    }
+
+    main .banner {
+        height: 722px;
+        background-image: url(../assets/img/Banner_background_desktop.png);
+        background-size: cover;
+        background-position: top;
+    }
+
+    main .banner h1 {
+        font-size: 80px;
+    }
+
+    /* banner jogos */
+
+    main .banner-jogos {
+        width: 100vw;
+        height: 500px;
+
+        display: flex;
+        flex-direction: row;
+    }
+
+    main .banner-jogos .banner-jogos-fifa,
+    main .banner-jogos .banner-jogos-counter {
+        width: 556px;
+        height: 313px;
+    }
+
+    /* banner entre para o time */
+
+    main .banner-time {
+        height: 1000px;
+    }
+
+    main .banner-time .banner-time-article {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    main .banner-time-article-1>img {
+        width: 425px;
+        height: 692px;
+    }
+
+    main .banner-time-article-2>img {
+        width: 521px;
+        height: 692px;
+    }
+
+
+
+
+
+    /* notícias */
+
+    main .banner-noticias {
+        height: 1175px;
+        background-image: url(../assets/img/backgrund_notícias-desktop.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        backdrop-filter: blur(4px);
+
+        display: block;
+    }
+
+    main .banner-noticias h1 {
+        font-size: 40px;
+        padding-top: 90px;
+        padding-bottom: 30px;
+    }
+
+        main .banner-noticias .div-noticias {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
 }
