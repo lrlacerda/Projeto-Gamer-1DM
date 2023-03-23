@@ -150,21 +150,14 @@
 
     main .banner-time-article-1 img {
         width: 425px;
-        height: 692px;
     }
     
-    main .banner-time-article-2 img {
-        width: 521px;
-        height: 692px;
-    }
-
-    main .banner-time-article-1>img {
-        margin-left: 50px;
-    }
-
     main .banner-time-article-2>img {
-        /* margin-right: 120px; */
-        padding-bottom: 80px;
+        width: 500px;
+        
+        position: relative;
+        bottom: 100px;
+        right: 170px;
     }
 
     main .banner-time-article-1 {
@@ -209,14 +202,14 @@
         position: absolute;
         right: 0;
         top: 190px;
-        left: 265px;
+        left: 255px;
     }
 
     main .banner-time-descricao-2 {
         position: absolute;
         left: 0;
         top: 80px;
-        left: -150px;
+        left: -255px;
     }
 
     /* notícias */
@@ -252,6 +245,7 @@
         display: flex;
         flex-direction: row;
         align-items: center;
+        background-image: url(../assets/img/backgroung_footer-desktop.png);
         
     }
 

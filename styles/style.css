@@ -493,6 +493,7 @@ footer .grid-footer .redes-sociais-footer {
     height: 41px;
     display: flex;
     justify-content: space-around;
+    margin-top: 40px;
 }
 
 footer .grid-footer .links-uteis-footer {
