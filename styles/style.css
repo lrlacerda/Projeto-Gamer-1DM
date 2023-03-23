@@ -29,6 +29,20 @@ body {
     color: #ffffff;
 }
 
+::-webkit-scrollbar{
+    width: 18px;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 35px;
+    background-color: #FE4356;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 35px;
+    background-color: #F9AA01;
+}
+
 /* Classes genéricas */
 .mostrar-menu {
     left: 0 !important;
