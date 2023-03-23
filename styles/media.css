@@ -137,23 +137,87 @@
     main .banner-time .banner-time-article {
         width: 100%;
         display: flex;
-        justify-content: center;
-
+        justify-content: space-around;
+        
     }
 
-    main .banner-time-article-1>img {
+    main .banner-time-article-1,
+    .banner-time-article-2 {
+        width: 425px;
+        height: 692px;
+        margin: 0;
+    }
+
+    main .banner-time-article-1 img {
         width: 425px;
         height: 692px;
     }
-
-    main .banner-time-article-2>img {
+    
+    main .banner-time-article-2 img {
         width: 521px;
         height: 692px;
     }
 
+    main .banner-time-article-1>img {
+        margin-left: 50px;
+    }
 
+    main .banner-time-article-2>img {
+        /* margin-right: 120px; */
+        padding-bottom: 80px;
+    }
 
+    main .banner-time-article-1 {
+        margin-right: 254px;
+    }
 
+    .banner-time h2 {
+        font-size: 40px;
+    }
+
+    .banner-time hr {
+        width: 204px;
+    }
+
+    main .banner-time-descricao-1,
+    main .banner-time-descricao-2 {
+        width: 22.5rem;
+        height: 27.5rem;
+    }
+
+    main .banner-time-descricao-1 img,
+    main .banner-time-descricao-2 img {
+        width: 143px;
+        height: 143px;
+    }
+
+    main .banner-time-descricao-2 img {
+        margin-top: 37px;
+    }
+
+    main .banner-time-descricao-1 h3,
+    main .banner-time-descricao-2 h3 {
+        font-size: 25px;
+    }
+
+    main .banner-time-descricao-1 p,
+    main .banner-time-descricao-2 p {
+        font-size: 16px;
+    }
+
+    main .banner-time-descricao-1 {
+        position: absolute;
+        right: 0;
+        top: 190px;
+        left: 265px;
+    }
+
+    main .banner-time-descricao-2 {
+        position: absolute;
+        left: 0;
+        top: 80px;
+        left: -150px;
+    }
 
     /* notícias */
 
@@ -173,11 +237,22 @@
         padding-bottom: 30px;
     }
 
-        main .banner-noticias .div-noticias {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 20px;
-        }
+    main .banner-noticias .div-noticias {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+
+    /* footer */
+
+    footer .grid-footer {
+        height: 520px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        
+    }
 
 }
